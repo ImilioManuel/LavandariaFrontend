@@ -8,7 +8,7 @@ header {
     background-color: var(--white);
     
     nav { 
-        padding: 3.2rem 6.4rem;
+        padding: 1.8rem 6.4rem;
         .container {
             
             display: flex;
@@ -16,7 +16,7 @@ header {
             justify-content: space-between;
 
             img {
-                height: 64px;
+                height: 44px;
             }
 
             .menu {
@@ -54,13 +54,13 @@ header {
                         padding: 1.4rem 3.2rem ;
                         border-radius: 8px;
                         margin-right: 20px;
-                        transition: all 0.3s ease-in-out;
+                        transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
     
                         
     
                         &:hover {
-                            color: var(--secondary);
-                            /* Contraste melhor no hover */
+                            color: var(--white);
+                            background:linear-gradient(45deg, var(--primary), var(--secondary));
                         }
     
                     }
