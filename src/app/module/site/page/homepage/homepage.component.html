@@ -1,20 +1,117 @@
 <main>
-    <section class="hero-page">
+    <section class="bg-gray-200">
         <app-header></app-header>
-        <div class="hero-content">
-            <div id="hero-info">
-                <h1>Seja bem-vindo ao <br> <span>Lava Plus</span></h1>
-                <h2>Seu serviço de lavanderia online!</h2>
-                <p>Já pensou em ter suas roupas limpas e impecáveis sem nenhum esforço, enquanto aproveita mais o seu
-                    tempo? <span>Não perca mais tempo... <a href="#">Cria a sua conta!</a></span></p>
+        <section>
+            <div class="grid max-w-screenxl h-screen px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <h1
+                        class="max-w-2xl mb-4 text-4xl font-extrabold md:text-5xl xl:text-7xl text-[var(--primary)] ">
+                        Seja Bem-vindo ao Lava Plus</h1>
+                    <h2 class="text-4xl text-[var(--primary-010)] mb-4">Seu serviço de lavanderia online!</h2>
+                    <p class="max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl">
+                        Já pensou em ter suas roupas limpas e impecáveis sem nenhum esforço, enquanto aproveita mais o
+                        seu.</p>
+                    <a href="#"
+                        class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[var(--primary-010)]  rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                        Criar Conta
+                        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                        Fale connosco
+                    </a>
+                </div>
+                <div class="col-span-5">
+                    <img src="/module/site/page/home/maquina.png" alt="maquina de lavar">
+                </div>
             </div>
-            <div id="hero-img">
-                <img src="/module/site/page/home/maquina.png" alt="Hero Image">
-            </div>
-        </div>
+        </section>
+
     </section>
     <section id="section-delivery">
-        
+        <section class="bg-white">
+            <div class="px-16 py-16 lg:py-24">
+                <div class="max-w-screen-md mb-8 lg:mb-16">
+                    <h2 class="mb-4 text-4xl font-bold text-[var(--primary-010)]">Serviços</h2>
+                    <p class="text-gray-500 text-xl"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Provident, dolor obcaecati dignissimos tenetur iure vitae sequi odio, accusamus est consequatur
+                        minus. Ducimus reiciendis odit architecto accusantium quisquam est ullam distinctio.</p>
+                </div>
+                <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                    <div>
+                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Lavagem</h3>
+                        <ul class="text-gray-500 list-disc list-inside">
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem Básica</span>:
+                                Limpeza simples de roupas do dia a dia;</li>
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem de Roupas
+                                    Delicadas</span>: Uso de produtos específicos para tecidos delicados, como seda, lã
+                                ou roupas de bebê;</li>
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem de Grandes
+                                    Volumes</span>: Ideal para cortinas, edredons, cobertores e tapetes;</li>
+                            <li class=" text-lg"><span class="text-[var(--primary-010)]">Lavagem de Uniformes</span>:
+                                Atendimento especializado para empresas, escolas ou profissionais (ex.: uniformes de
+                                trabalho, roupas de segurança);</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Passadoria (Engomadoria)</h3>
+                        <ul class="text-gray-500 list-disc list-inside">
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Passadoria Simples</span>:
+                                Engomar roupas do dia a dia;</li>
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Passadoria
+                                    Profissional</span>: Para roupas formais, como camisas, ternos, vestidos e
+                                uniformes;</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Serviços Expressos</h3>
+                        <ul class="text-gray-500 list-disc list-inside">
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem Expressa</span>:
+                                Serviço rápido para quem precisa de roupas limpas e prontas no mesmo dia;</li>
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Passadoria
+                                    Expressa</span>: Para clientes que precisam de roupas passadas em poucas horas;</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Higienização Profunda</h3>
+                        <ul class="text-gray-500 list-disc list-inside">
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Desinfecção de
+                                    Roupas</span>:
+                                Uso de produtos antibacterianos e antivirais;</li>
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Higienização de Roupas de
+                                    Cama</span>: Limpeza e eliminação de ácaros de lençóis, edredons e fronhas;</li>
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Higienização de Roupas de
+                                    Bebê</span>: Lavagem com produtos hipoalergênicos;</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Limpeza de Roupas Especiais</h3>
+                        <ul class="text-gray-500 list-disc list-inside">
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Limpeza a Seco</span>:
+                                Para roupas que não podem ser lavadas com água, como ternos, vestidos de festa e
+                                casacos.</li>
+                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Roupas de Couro e
+                                    Camurça</span>: Limpeza profissional de peças como jaquetas e bolsas;</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Serviços Corporativos</h3>
+                        <ul class="text-gray-500 list-disc list-inside">
+                            <li class=" mb-4 text-lg">Parcerias com empresas para lavagem de uniformes e roupas de cama
+                                de hotéis, restaurantes e clínicas;</li>
+                            <li class=" mb-4 text-lg">Descontos para contratos regulares;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
 
 </main>
