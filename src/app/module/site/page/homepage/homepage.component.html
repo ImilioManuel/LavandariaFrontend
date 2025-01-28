@@ -1,117 +1,529 @@
 <main>
-    <section class="bg-gray-200">
-        <app-header></app-header>
-        <section>
-            <div class="grid max-w-screenxl h-screen px-16 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-                <div class="mr-auto place-self-center lg:col-span-7">
-                    <h1
-                        class="max-w-2xl mb-4 text-4xl font-extrabold md:text-5xl xl:text-7xl text-[var(--primary)] ">
-                        Seja Bem-vindo ao Lava Plus</h1>
-                    <h2 class="text-4xl text-[var(--primary-010)] mb-4">Seu serviço de lavanderia online!</h2>
-                    <p class="max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl">
-                        Já pensou em ter suas roupas limpas e impecáveis sem nenhum esforço, enquanto aproveita mais o
-                        seu.</p>
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[var(--primary-010)]  rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                        Criar Conta
-                        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
+    <app-header></app-header>
+    <section class="bg-gray-100 h-screen">
+        <div
+            class="grid max-w-screen-4xl px-16 text-center py-48 mx-auto lg:text-left lg:gap-8 xl:gap-8 lg:py-32 lg:grid-cols-12 ">
+            <div class="mr-auto place-self-center lg:col-span-6">
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-[var(--primary-010)]">
+                    Lavanderia profissional ao seu alcance
+                </h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+                    Transforme sua rotina com nossa lavanderia profissional. Qualidade, praticidade e cuidado em cada
+                    peça, para você focar no que realmente importa.
+                </p>
+                <a href="#"
+                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[var(--primary-010)] hover:bg-[var(--primary)] transition-colors duration-300">
+                    Comece agora
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-6 lg:flex">
+                <img src="/module/site/page/home/maquina.png" alt="maquina de lavar roupa"
+                    class="w-full rounded-lg shadow-xl">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-8">
+        <div class="max-w-screen-4xl px-4 py-8 mx-auto lg:px-16">
+            <div class="text-center mb-16">
+                <h2 class="mb-4 text-4xl tracking-tight font-bold text-[var(--primary-010)]">Nossos Serviços</h2>
+                <p class="text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Cuidamos das suas roupas com a máxima qualidade e
+                    atenção. Serviço de lavanderia profissional com entrega em domicílio para sua maior comodidade.</p>
+            </div>
+            <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5h-.16667c-.86548 0-1.70761.28071-2.4.8L3.5 8l2 3.5L8 10v9h8v-9l2.5 1.5 2-3.5-2.9333-2.2c-.6924-.51929-1.5346-.8-2.4-.8H15M9 5c0 1.5 1.5 3 3 3s3-1.5 3-3M9 5h6" />
                         </svg>
-                    </a>
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                        Fale connosco
-                    </a>
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Lavagem Premium</h3>
+                    <p class="text-gray-500">Tratamento especial para suas roupas mais valiosas com produtos premium</p>
                 </div>
-                <div class="col-span-5">
-                    <img src="/module/site/page/home/maquina.png" alt="maquina de lavar">
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Serviços Expressos</h3>
+                    <p class="text-gray-500">Serviço rápido para quem precisa de roupas limpas e prontas no mesmo dia.
+                    </p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Limpeza Especializada</h3>
+                    <p class="text-gray-500">Remoção de manchas difíceis e tratamentos especiais</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12 2a1 1 0 0 1 .932.638l7 18a1 1 0 0 1-1.326 1.281L13 19.517V13a1 1 0 1 0-2 0v6.517l-5.606 2.402a1 1 0 0 1-1.326-1.281l7-18A1 1 0 0 1 12 2Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Passadoria</h3>
+                    <p class="text-gray-500">Passadoria profissional para roupas sociais e delicadas</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 5V3m0 18v-2M7.05 7.05 5.636 5.636m12.728 12.728L16.95 16.95M5 12H3m18 0h-2M7.05 16.95l-1.414 1.414M18.364 5.636 16.95 7.05M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Lavagem a Seco</h3>
+                    <p class="text-gray-500">Limpeza especial para roupas delicadas e tecidos nobres</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 7h6l2 4m-8-4v8H9m4-8V6c0-.26522-.1054-.51957-.2929-.70711C12.5196 5.10536 12.2652 5 12 5H4c-.26522 0-.51957.10536-.70711.29289C3.10536 5.48043 3 5.73478 3 6v9h2m14 0h2v-4m0 0h-5M8 8.66669V10l1.5 1.5m10 5c0 1.3807-1.1193 2.5-2.5 2.5s-2.5-1.1193-2.5-2.5S15.6193 14 17 14s2.5 1.1193 2.5 2.5Zm-10 0C9.5 17.8807 8.38071 19 7 19s-2.5-1.1193-2.5-2.5S5.61929 14 7 14s2.5 1.1193 2.5 2.5Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Entrega Express</h3>
+                    <p class="text-gray-500">Serviço rápido de coleta e entrega em domicílio</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 5 9 4V3m5 2 1-1V3m-3 6v11m0-11a5 5 0 0 1 5 5m-5-5a5 5 0 0 0-5 5m5-5a4.959 4.959 0 0 1 2.973 1H15V8a3 3 0 0 0-6 0v2h.027A4.959 4.959 0 0 1 12 9Zm-5 5H5m2 0v2a5 5 0 0 0 10 0v-2m2.025 0H17m-9.975 4H6a1 1 0 0 0-1 1v2m12-3h1.025a1 1 0 0 1 1 1v2M16 11h1a1 1 0 0 0 1-1V8m-9.975 3H7a1 1 0 0 1-1-1V8" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Higienização</h3>
+                    <p class="text-gray-500">Eliminação de bactérias e ácaros com produtos especializados</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
+                                d="M4 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5Zm16 14a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2ZM4 13a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6Zm16-2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Lavagem Edredom</h3>
+                    <p class="text-gray-500">Limpeza profunda de edredons e cobertores de todos os tamanhos</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 text-center hover:bg-gray-100 transition-colors duration-300">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-14 h-14 text-[var(--primary-010)]" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 4h12M6 4v16M6 4H5m13 0v16m0-16h1m-1 16H6m12 0h1M6 20H5M9 7h1v1H9V7Zm5 0h1v1h-1V7Zm-5 4h1v1H9v-1Zm5 0h1v1h-1v-1Zm-3 4h2a1 1 0 0 1 1 1v4h-4v-4a1 1 0 0 1 1-1Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-3 text-2xl font-bold text-[var(--primary)]">Serviços Corporativos</h3>
+                    <p class="text-gray-500">Parcerias com empresas para lavagem de uniformes e roupas de cama de
+                        hotéis, restaurantes e clínicas</p>
                 </div>
             </div>
-        </section>
-
+        </div>
     </section>
-    <section id="section-delivery">
-        <section class="bg-white">
-            <div class="px-16 py-16 lg:py-24">
-                <div class="max-w-screen-md mb-8 lg:mb-16">
-                    <h2 class="mb-4 text-4xl font-bold text-[var(--primary-010)]">Serviços</h2>
-                    <p class="text-gray-500 text-xl"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Provident, dolor obcaecati dignissimos tenetur iure vitae sequi odio, accusamus est consequatur
-                        minus. Ducimus reiciendis odit architecto accusantium quisquam est ullam distinctio.</p>
+    <section class="py-8 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-[var(--primary)] mb-4">Nossos Planos</h2>
+                <p class="text-gray-600 text-xl">Escolha o plano ideal para suas necessidades</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Plano Básico -->
+                <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-[var(--primary)] mb-4">Básico</h3>
+                    <div class="text-4xl font-bold mb-6">
+                        <span class="text-[var(--primary-010)]">15.439.90kz</span>
+                        <span class="text-gray-500 text-base font-normal">/mês</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            10 peças por mês
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Lavagem simples
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Entrega em 48h
+                        </li>
+                    </ul>
+                    <button
+                        class="w-full bg-[var(--primary-010)] hover:bg-[var(--primary)] text-white font-bold py-3 px-4 rounded transition-colors duration-300">
+                        Escolher Plano
+                    </button>
                 </div>
-                <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-                    <div>
-                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Lavagem</h3>
-                        <ul class="text-gray-500 list-disc list-inside">
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem Básica</span>:
-                                Limpeza simples de roupas do dia a dia;</li>
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem de Roupas
-                                    Delicadas</span>: Uso de produtos específicos para tecidos delicados, como seda, lã
-                                ou roupas de bebê;</li>
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem de Grandes
-                                    Volumes</span>: Ideal para cortinas, edredons, cobertores e tapetes;</li>
-                            <li class=" text-lg"><span class="text-[var(--primary-010)]">Lavagem de Uniformes</span>:
-                                Atendimento especializado para empresas, escolas ou profissionais (ex.: uniformes de
-                                trabalho, roupas de segurança);</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Passadoria (Engomadoria)</h3>
-                        <ul class="text-gray-500 list-disc list-inside">
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Passadoria Simples</span>:
-                                Engomar roupas do dia a dia;</li>
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Passadoria
-                                    Profissional</span>: Para roupas formais, como camisas, ternos, vestidos e
-                                uniformes;</li>
 
-                        </ul>
+                <!-- Plano Premium -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transform scale-105 border-2 border-[var(--primary-010)]">
+                    <div
+                        class="absolute top-0 right-0 bg-[var(--primary-010)] text-white px-4 py-1 rounded-bl-lg rounded-tr-lg text-sm">
+                        Mais Popular
                     </div>
-                    <div>
-                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Serviços Expressos</h3>
-                        <ul class="text-gray-500 list-disc list-inside">
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Lavagem Expressa</span>:
-                                Serviço rápido para quem precisa de roupas limpas e prontas no mesmo dia;</li>
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Passadoria
-                                    Expressa</span>: Para clientes que precisam de roupas passadas em poucas horas;</li>
+                    <h3 class="text-2xl font-bold text-[var(--primary)] mb-4">Premium</h3>
+                    <div class="text-4xl font-bold mb-6">
+                        <span class="text-[var(--primary-010)]">32.960.17kz</span>
+                        <span class="text-gray-500 text-base font-normal">/mês</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            20 peças por mês
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Lavagem premium
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Entrega em 24h
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Passadoria incluída
+                        </li>
+                    </ul>
+                    <button
+                        class="w-full bg-[var(--primary)] hover:bg-[var(--primary-010)] text-white font-bold py-3 px-4 rounded transition-colors duration-300">
+                        Escolher Plano
+                    </button>
+                </div>
 
-                        </ul>
+                <!-- Plano Empresarial -->
+                <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-bold text-[var(--primary)] mb-4">Empresarial</h3>
+                    <div class="text-4xl font-bold mb-6">
+                        <span class="text-[var(--primary-010)]">49.999.00kz</span>
+                        <span class="text-gray-500 text-base font-normal">/mês</span>
                     </div>
-                    <div>
-                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Higienização Profunda</h3>
-                        <ul class="text-gray-500 list-disc list-inside">
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Desinfecção de
-                                    Roupas</span>:
-                                Uso de produtos antibacterianos e antivirais;</li>
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Higienização de Roupas de
-                                    Cama</span>: Limpeza e eliminação de ácaros de lençóis, edredons e fronhas;</li>
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Higienização de Roupas de
-                                    Bebê</span>: Lavagem com produtos hipoalergênicos;</li>
-                        </ul>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            40 peças por mês
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Lavagem premium
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Entrega express
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Serviços premium
+                        </li>
+                    </ul>
+                    <button
+                        class="w-full bg-[var(--primary-010)] hover:bg-[var(--primary)] text-white font-bold py-3 px-4 rounded transition-colors duration-300">
+                        Escolher Plano
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">Quem Somos</h2>
+                <p class="text-gray-600 mb-12 text-lg leading-relaxed">
+                    Somos uma empresa especializada em serviços de lavanderia, comprometida em oferecer soluções
+                    práticas e de qualidade para o cuidado com suas roupas. Com anos de experiência no mercado, nossa
+                    equipe altamente qualificada utiliza tecnologias avançadas e produtos de primeira linha para
+                    garantir os melhores resultados.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-8 mt-12">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div
+                            class="w-16 h-16 bg-[var(--primary-010)] rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-[var(--primary)] mb-2">Qualidade Garantida</h3>
+                        <p class="text-gray-600">Utilizamos as melhores técnicas e produtos para cuidar das suas roupas.
+                        </p>
                     </div>
-                    <div>
-                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Limpeza de Roupas Especiais</h3>
-                        <ul class="text-gray-500 list-disc list-inside">
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Limpeza a Seco</span>:
-                                Para roupas que não podem ser lavadas com água, como ternos, vestidos de festa e
-                                casacos.</li>
-                            <li class=" mb-4 text-lg"><span class="text-[var(--primary-010)]">Roupas de Couro e
-                                    Camurça</span>: Limpeza profissional de peças como jaquetas e bolsas;</li>
-                        </ul>
+
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div
+                            class="w-16 h-16 bg-[var(--primary-010)] rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-[var(--primary)] mb-2">Pontualidade</h3>
+                        <p class="text-gray-600">Respeitamos prazos e entregamos suas roupas no momento combinado.</p>
                     </div>
-                    <div>
-                        <h3 class="mb-2 text-2xl font-bold text-[var(--primary-010)] ">Serviços Corporativos</h3>
-                        <ul class="text-gray-500 list-disc list-inside">
-                            <li class=" mb-4 text-lg">Parcerias com empresas para lavagem de uniformes e roupas de cama
-                                de hotéis, restaurantes e clínicas;</li>
-                            <li class=" mb-4 text-lg">Descontos para contratos regulares;</li>
-                        </ul>
+
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div
+                            class="w-16 h-16 bg-[var(--primary-010)] rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-[var(--primary)] mb-2">Satisfação Total</h3>
+                        <p class="text-gray-600">Nosso compromisso é superar suas expectativas em cada serviço.</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">Contactos</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed">
+                        Entre em contacto connosco para mais informações sobre nossos serviços ou para agendar uma
+                        recolha.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div
+                                class="w-12 h-12 bg-[var(--primary-010)] rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-[var(--primary)]">Telefone</h3>
+                                <p class="text-gray-600">+244 923 333 333</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-4">
+                            <div
+                                class="w-12 h-12 bg-[var(--primary-010)] rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-[var(--primary)]">Email</h3>
+                                <p class="text-gray-600">infolavaplus.pt</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-4">
+                            <div
+                                class="w-12 h-12 bg-[var(--primary-010)] rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                    </path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-[var(--primary)]">Morada</h3>
+                                <p class="text-gray-600">Rua Principal, 123<br>1000-000 Luanda</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nome</label>
+                            <input type="text" id="name" name="name"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[var(--primary)] focus:border-[var(--primary)] outline-none">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" name="email"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[var(--primary)] focus:border-[var(--primary)] outline-none">
+                        </div>
+
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Assunto</label>
+                            <input type="text" id="subject" name="subject"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[var(--primary)] focus:border-[var(--primary)] outline-none">
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Mensagem</label>
+                            <textarea id="message" name="message" rows="4"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[var(--primary)] focus:border-[var(--primary)] outline-none"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-[var(--primary-010)] hover:bg-[var(--primary)] text-white font-bold py-3 px-4 rounded transition-colors duration-300">
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[var(--primary)]">
+        <div class="max-w-screen-4xl mx-auto px-4 sm:px-6 lg:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 py-12">
+                <div>
+                    <img src="/module/components/header/Lava-plus.svg" class="h-12 mb-6" alt="Lava Plus Logo">
+                    <p class="text-white text-sm">
+                        Transformando a experiência de lavandaria com tecnologia e excelência em cada peça de roupa.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#"
+                                class="text-white hover:text-[var(--primary-010)] transition-colors">Início</a></li>
+                        <li><a href="#"
+                                class="text-white hover:text-[var(--primary-010)] transition-colors">Serviços</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white hover:text-[var(--primary-010)] transition-colors">Planos</a></li>
+                        <li><a href="#" class="text-white hover:text-[var(--primary-010)] transition-colors">Quem
+                                Somos</a></li>
+                        <li><a href="#"
+                                class="text-white hover:text-[var(--primary-010)] transition-colors">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Horário</h3>
+                    <ul class="space-y-2 text-white">
+                        <li>Segunda - Sexta: 8h - 20h</li>
+                        <li>Sábado: 9h - 18h</li>
+                        <li>Domingo: Fechado</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Siga-nos</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-[var(--primary-010)] transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white hover:text-[var(--primary-010)] transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white hover:text-[var(--primary-010)] transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-white py-6">
+                <p class="text-center text-sm text-white">
+                    © 2024 Lava Plus. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
 
 </main>
